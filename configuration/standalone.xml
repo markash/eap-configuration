@@ -465,7 +465,7 @@
                 <jms-queue name="HelloQueue" entries="java:/jms/queue/hello"/>
                 <jms-queue name="TradeQueue" entries="java:/jms/queue/TradeQueue/in"/>
                 <jms-queue name="TradeRouter" entries="java:/jms/queue/TradeRouter/in"/>
-                <jms-queue name="IntimationQueue" entries="java:/jms/queue/IntimationQueue"/>
+                <jms-queue name="IntimationQueue" entries="java:/jms/queue/IntimationQueue/in"/>
                 <jms-queue name="IntimationRouter" entries="java:/jms/queue/IntimationRouter/in"/>
                 <jms-queue name="AccountingQueue" entries="java:/jms/queue/AccountingQueue"/>
                 <connection-factory name="InVmConnectionFactory" entries="java:/ConnectionFactory" connectors="in-vm"/>
