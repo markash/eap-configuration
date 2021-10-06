@@ -156,14 +156,6 @@
         <subsystem xmlns="urn:jboss:domain:core-management:1.0"/>
         <subsystem xmlns="urn:jboss:domain:datasources:5.0">
             <datasources>
-                <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true" statistics-enabled="true">
-                    <connection-url>jdbc:h2:tcp://localhost/C:/SDE/Data/H2/Messaging;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MSSQLServer</connection-url>
-                    <driver>h2</driver>
-                    <security>
-                        <user-name>sa</user-name>
-                        <password>password1*</password>
-                    </security>
-                </datasource>
                 <datasource jndi-name="java:jboss/datasources/MessagingDS" pool-name="MessagingDS" enabled="true">
                     <connection-url>jdbc:sqlserver://localhost:1433;databaseName=Messaging;IntegratedSecurity=true</connection-url>
                     <driver>sqlserver</driver>
