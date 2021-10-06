@@ -164,7 +164,7 @@
                         <password>password1*</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:jboss/datasources/MessagingDS" pool-name="MessagingDS">
+                <datasource jndi-name="java:jboss/datasources/MessagingDS" pool-name="MessagingDS" enabled="true">
                     <connection-url>jdbc:sqlserver://localhost:1433;databaseName=Messaging;IntegratedSecurity=true</connection-url>
                     <driver>sqlserver</driver>
                 </datasource>
